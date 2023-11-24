@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className='mt-[3px]'>
               <FontAwesomeIcon icon={faEnvelope} className="fa-envelope" />
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/beeteaandcoffe" target="_blank" rel="noopener noreferrer">
                 <span className='pt-[8px] pl-[8px]'><strong className='text-[17px] font-bold'>Email</strong> : <span className='text-[15px] font-medium'>Beemilkteacoffee@gmail.com</span></span>
               </a>
             </div>
@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
               </a>
 
-              <a href="https://tikyok.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.tiktok.com/@beemilkteacoffee?_t=8hcNQqOLgKl&_r=1" target="_blank" rel="noopener noreferrer">
                 <span className='ml-[8px]  flex'>
                   <img src="../../public/images/tiktok.png" alt="" className='xl:w-[35px] xl:h-[25px] md:w-[17px] md:h-[17px] w-[25px] h-[25px] ' />
                   <span className='xl:text-[15px] md:text-[8px] text-[14px] font-bold xl:pt-[-2px] md:pt-[2.5px]'>Tiktok</span>
