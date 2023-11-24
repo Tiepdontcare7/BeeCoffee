@@ -1,5 +1,6 @@
+import { Review } from "../../components/review";
 const HomePage = () => {
-    return <div>HomePage</div>;
+    return <div><Review /></div>;
 };
 
 export default HomePage;
