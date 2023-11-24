@@ -12,5 +12,6 @@ const HomePage = () => {
             <Review />
         </div>
     );
+}
 
 export default HomePage;
