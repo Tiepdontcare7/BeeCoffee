@@ -4,7 +4,7 @@ import { faHome, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return (
-    <div className='bg-gradient-to-r from-yellow-100 via-yellow-200 to-yellow-300 '>
+    <div className='bg-[#f2edd5] '>
       <div className='container h-auto xl:px-[60px] md:px-[8px] px-[15px]  grid xl:grid-cols-3 md:grid-cols-3 gap-8 lg:grid-cols-3  w-[100%]' >
         <div className="Address block ">
           <div className="w-[250px] pt-[15px] lg:pl-[10px] xl:pl-[20px] xl:mt-[18px] md:pt-[15px] md:w-[200px] ">
