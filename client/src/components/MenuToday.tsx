@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 const MenuToday = () => {
     return (
-        <section className="py-16 bg-[#f2edd5]">
+        <section className="py-16 bg-[#f5f1dd]">
             <div className="text-center">
                 <h2 className="font-bold text-4xl mb-4 text-[#f2b10b]">MENU HÔM NAY</h2>
                 <h4 className="font-bold text-base mb-4">HÔM NAY MENU NHÀ BEE CÓ: </h4>
@@ -15,26 +15,36 @@ const MenuToday = () => {
                     <img className="block mx-auto" src="/images/ngoi-sao.jpg" alt="" />
                 </div>
             </div>
-            <div className="mx-[150px] mt-16">
+            <div className="xl:mx-[120px] mx-[50px] mt-16">
                 <Swiper
                     slidesPerView={5}
                     spaceBetween={30}
-                    // pagination={{
-                    //     clickable: true,
-                    // }}
-                    // navigation={true}
-                    // centeredSlides={true}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
                     modules={[Pagination, Autoplay, Navigation]}
                     className="mySwiper"
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 4,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 5,
+                            spaceBetween: 50,
+                        },
+                    }}
                 >
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
@@ -48,7 +58,8 @@ const MenuToday = () => {
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
@@ -62,7 +73,8 @@ const MenuToday = () => {
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
@@ -76,7 +88,8 @@ const MenuToday = () => {
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
@@ -90,7 +103,8 @@ const MenuToday = () => {
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
@@ -104,7 +118,8 @@ const MenuToday = () => {
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
@@ -118,7 +133,8 @@ const MenuToday = () => {
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
@@ -132,7 +148,8 @@ const MenuToday = () => {
                     <SwiperSlide>
                         <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
-                                className="hover:scale-[1.02] transition-transform ease-linear mb-5"
+                                title="CÀ PHÊ HẠT RANG BEE"
+                                className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
                                 src="/images/Dong-Ca-Phe-Hat-Rang-1.png"
                                 alt="Bonnie Avatar"
                             />
