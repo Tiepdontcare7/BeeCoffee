@@ -12,12 +12,12 @@ function App() {
         <>
             <BrowserRouter>
                 <Routes>
-                    //! Client
+                    {/* ! Client */}
                     <Route path="/" element={<BaseLayout />}>
                         <Route path="" element={<HomePage />} />
                         <Route path="detail/:id" element={<DetailPage />} />
                     </Route>
-                    // !Admin
+                    {/*  !Admin */}
                     <Route path="/admin/" element={<AdminLayout />}>
                         <Route path="dashboard" element={<Dashboard />} />
                         <Route path="products" element={<ListProduct />} />
