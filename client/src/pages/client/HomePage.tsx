@@ -1,7 +1,8 @@
 import Banner from '../../components/Banner';
 import Introduce from '../../components/Introduce';
 import MenuToday from '../../components/MenuToday';
-import { Review } from '../../components/review';
+import { Review } from '../../components/Review';
+import News from '../../components/News';
 
 const HomePage = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage = () => {
             <Introduce />
             <MenuToday />
             <Review />
+            <News />
         </div>
     );
 
