@@ -3,6 +3,7 @@ import Introduce from '../../components/Introduce';
 import MenuToday from '../../components/MenuToday';
 import { Review } from '../../components/Review';
 import News from '../../components/News';
+
 const HomePage = () => {
     return (
         <div>
@@ -13,6 +14,6 @@ const HomePage = () => {
             <News />
         </div>
     );
-}
 
+};
 export default HomePage;
