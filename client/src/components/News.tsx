@@ -2,41 +2,41 @@
 const News = () => {
     return (
         <div>
-            <div className="bg-[#e6e9eb] h-auto mt-[50px] cursor-pointer xl:px-[80px] px-[20px]">
-                <div className="font-sans">
-                    <h3 className="text-center text-[#f2b10b] text-4xl pt-[50px] uppercase font-bold mb-4">TIN TỨC</h3>
+            <div className="bg-[#e6e9eb] h-auto mt-[50px] cursor-pointer xl:px-[80px] px-[20px] py-[64px]">
+                <div className="">
+                    <h3 className="text-center text-[#f2b10b] text-4xl  uppercase font-bold mb-4">TIN TỨC</h3>
                     <img src="/images/ngoi-sao.png" alt="" className="mx-auto text-[35px] uppercase font-bold h-[15px] " />
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-[15px]">
-                    <div className="text-center mt-[35px] ">
-                        <div className="overflow-hidden ">
-                            <img src="/images/new-001.png" alt="" className=" xl:w-full xl:h-[290px] lg:w-[280px] lg:h-[280px] md:w-full md:h-[300px] w-full h-[260px] transform transition-transform duration-300 hover:scale-110 mx-auto flex cursor-pointer" />
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-[15px] ">
+                    <div className="text-center mt-[35px]">
+                        <div className="overflow-hidden">
+                            <img src="/images/new-001.png" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px]  md:w-full  md:h-[490px] w-full h-[260px] transform transition-transform duration-300 hover:scale-110 mx-auto object-cover cursor-pointer" />
                         </div>
-                        <div>
-                            <h3 className="font-sans font-bold italic text-[20px] mt-5">  BEE RA MẮT “TOPPING MỚI” SIÊU HOT - ... </h3>
-                            <p className="mt-[10px] leading-5 italic text-[#0A0A0A] font-normal"> 𝐓𝐚̣̆𝐧𝐠 THẠCH MIỄN PHÍ 𝐤𝐡𝐢 𝐨𝐫𝐝𝐞𝐫 𝟑 𝐧𝐡𝐨́𝐦 𝐭𝐫𝐚̀ – 𝐧𝐮̛𝐨̛́𝐜 𝐧𝐡𝐚̀ 𝐁𝐞𝐞! Chào cả nhà, cũng đã lâu rồi [...] </p>
+                        <div className="px-[10px]">
+                            <h3 className=" font-bold  xl:text-[18px] text-[17px] mt-5">  BEE RA MẮT “TOPPING MỚI” SIÊU HOT - ... </h3>
+                            <p className="mt-[10px] leading-5    text-[15px] font-normal"> Tặng THẠCH MIỄN PHÍ Khi order 3 nhóm trà - nước nhà Bee! Chào cả nhà, cũng đã lâu rồi [...] </p>
                         </div>
                     </div>
                     {/* name1 */}
                     <div className="text-center mt-[35px]">
                         <div className="overflow-hidden">
-                            <img src="/images/new-002.jpg" alt="" className=" xl:w-full xl:h-[290px] lg:w-[280px] lg:h-[280px] md:w-full md:h-[300px] w-full h-[260px] transform transition-transform hover:scale-110 duration-300 mx-auto cursor-pointer" />
+                            <img src="/images/new-002.jpg" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px] md:w-full  md:h-[490px] w-full h-[260px] transform transition-transform hover:scale-110 duration-300 mx-auto object-cover cursor-pointer" />
                         </div>
-                        <h3 className="font-sans font-bold italic text-[20px] mt-5">VÌ SAO NÊN ĐẦU TƯ THIẾT KẾ QUÁN CÀ PHÊ?</h3>
-                        <p className="mt-[10px] leading-5 italic xl:font-normal xl:text-[17px]  text-[19px] font-normal">Một bài viết tìm hiểu vì sao đầu tư thiết kế quán cà phê là một quyết định quan trọng [...]</p>
+                        <h3 className=" font-bold  xl:text-[18px] text-[17px] mt-5">VÌ SAO NÊN ĐẦU TƯ THIẾT KẾ QUÁN CÀ PHÊ?</h3>
+                        <p className="mt-[10px] leading-5    text-[15px] font-normal">Một bài viết tìm hiểu vì sao đầu tư thiết kế quán cà phê là một quyết định quan trọng [...]</p>
                     </div>
                     {/* name2 */}
                     <div className="text-center mt-[35px] ">
                         <div className="overflow-hidden ">
-                            <img src="/images/new-003.jpg" alt="" className=" xl:w-full xl:h-[290px] lg:w-[280px] lg:h-[280px] md:w-full md:h-[300px] w-full h-[260px] hover:scale-110 transform transition-transform duration-300 mx-auto cursor-pointer" />
+                            <img src="/images/new-003.jpg" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px] md:w-full  md:h-[490px] w-full h-[260px] hover:scale-110 transform transition-transform duration-300 mx-auto object-cover cursor-pointer" />
                         </div>
-                        <h3 className="font-sans font-bold italic text-[20px] mt-5">Bee Coffee & Tea – Không chỉ đơn thuần làm ...</h3>
-                        <p className="mt-[10px] leading-5 italic xl:font-normal xl:text-[17px]  text-[19px] font-normal">Không đơn thuần chỉ là một chuỗi cà phê phục vụ thức uống chất lượng, thơm ngon, đi đôi với [...]</p>
+                        <h3 className=" font-bold  xl:text-[18px] text-[17px] mt-5">Bee Coffee & Tea – Không chỉ đơn thuần làm ...</h3>
+                        <p className="mt-[10px] leading-5    text-[15px] font-normal">Không đơn thuần chỉ là một chuỗi cà phê phục vụ thức uống chất lượng, thơm ngon, đi đôi với [...]</p>
                     </div>
                     {/* name 3 */}
                 </div>
-
-                <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-1 md:grid-cols-4  mt-8 pb-[20px] gap-5">
+{/* ione */}
+                <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-1 md:grid-cols-4  mt-12 pb-[20px] gap-5">
                     <div className="xl:flex lg:flex gap-3 flex px-[10px]  bg-white md:flex rounded-[5px] overflow-hidden border-dashed border-2 border-yellow-500 hover:border-solid ">
                         <div className=" ">
                             <img src="/images/icon-01.png" alt="" className="xl:w-[90px] xl:h-[95px] xl:mt-[-2px] w-[80px] h-[80px]  " />
