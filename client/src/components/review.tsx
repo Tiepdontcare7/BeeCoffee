@@ -1,6 +1,6 @@
 
 
-export const Review = () => {
+const Review = () => {
     return (
         <div className="w-[100%] ">
             <div className="pt-[64px]">
@@ -52,7 +52,8 @@ export const Review = () => {
             </div>
 
             {/* new  */}
-            
+
         </div>
     )
 }
+export default Review
