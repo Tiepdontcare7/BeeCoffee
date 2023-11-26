@@ -15,7 +15,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                             Tất cả các ngày trong tuần</p>
                         <p >Hãy ghé Bee để thưởng thức hương vị độc đáo<br />
                             của trà và cà phê ngay nhé!</p>
-                        <p className="text-[22px] py-7 text-[#ffa300] font-semibold">&nbsp;———–<br />
+                        <p className="text-[22px] py-7 text-[#ffa300] font-semibold">———–———–<br />
                             HOTLINE:<br />
                             0923.069.069</p>
 
@@ -28,7 +28,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                     spaceBetween={30}
                     centeredSlides={true}
                     autoplay={{
-                        delay: 2500,
+                        delay: 9999,
                         disableOnInteraction: false,
                     }}
                     pagination={{
@@ -39,18 +39,47 @@ import 'swiper/css/navigation'; const Chains = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <div>
-                            <img className="w-full object-cover" src="/images/IMG-QUAN-BEE-V2.jpg" alt="" />
+                        <div className='relative rounded-xl overflow-hidden'>
+                            <img className=" w-full object-cover" src="/images/IMG-QUAN-BEE-V1.jpg" alt="" />
+                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
+
+                                <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
+                                <p className='text-xs p-3'>Địa chỉ 1:  223 Phúc Diễn - Bắc Từ Liêm - Hà Nội</p>
+                                <hr />
+                                <div className="order p-2 grid grid-cols-2 gap-2">
+                                    <a href="" className=" w-full font-bold text-xs text-white inline-block bg-transparent border-2  border-white  py-2 rounded-full transition duration-300 hover:bg-white hover:text-black px-2" >SHOPEE FOOD</a>
+                                    <a href="" className=" w-full font-bold text-xs text-white inline-block bg-transparent border-2  border-white  py-2 rounded-full transition duration-300 hover:bg-white hover:text-black px-2" >GRAB FOOD</a>
+                                </div>
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
-                            <img src="/images/IMG-QUAN-BEE-V2.jpg" alt="" />
+                        <div className='relative rounded-xl overflow-hidden'>
+                            <img className=" w-full object-cover" src="/images/IMG-QUAN-BEE-V2.jpg" alt="" />
+                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
+
+                                <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
+                                <p className='text-xs p-3'>Địa chỉ 2: 125 Chương Mỹ - Hà Đông - Hà Nội</p>
+                                <hr />
+                                <div className="order p-2 grid grid-cols-2 gap-2">
+                                    <a href="" className=" w-full font-bold text-xs text-white inline-block bg-transparent border-2  border-white  py-2 rounded-full transition duration-300 hover:bg-white hover:text-black px-2" >SHOPEE FOOD</a>
+                                    <a href="" className=" w-full font-bold text-xs text-white inline-block bg-transparent border-2  border-white  py-2 rounded-full transition duration-300 hover:bg-white hover:text-black px-2" >GRAB FOOD</a>
+                                </div>
+                            </div>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
-                            <img src="/images/IMG-QUAN-BEE-V2.jpg" alt="" />
+                        <div className='relative h-full w-full rounded-xl overflow-hidden'>
+                            <img className=" w-full h-full object-cover" src="/images/IMG-QUAN-BEE-V3.jpg" alt="" />
+                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
+                                <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
+                                <p className='text-xs p-3'>Địa chỉ 3:  32 Cầu Giấy - Hà Nội</p>
+                                <hr />
+                                <div className="order p-2 grid grid-cols-2 gap-2">
+                                    <a href="" className=" w-full font-bold text-xs text-white inline-block bg-transparent border-2  border-white  py-2 rounded-full transition duration-300 hover:bg-white hover:text-black px-2" >SHOPEE FOOD</a>
+                                    <a href="" className=" w-full font-bold text-xs text-white inline-block bg-transparent border-2  border-white  py-2 rounded-full transition duration-300 hover:bg-white hover:text-black px-2" >GRAB FOOD</a>
+                                </div>
+                            </div>
                         </div>
                     </SwiperSlide>
                 </Swiper>
