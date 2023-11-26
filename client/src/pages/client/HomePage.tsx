@@ -3,6 +3,7 @@ import Introduce from '../../components/Introduce';
 import MenuToday from '../../components/MenuToday';
 import { Review } from '../../components/Review';
 import News from '../../components/News';
+import Gallery from '../../components/Gallery';
 
 const HomePage = () => {
     return (
@@ -10,6 +11,7 @@ const HomePage = () => {
             <Banner />
             <Introduce />
             <MenuToday />
+            <Gallery />
             <Review />
             <News />
         </div>
