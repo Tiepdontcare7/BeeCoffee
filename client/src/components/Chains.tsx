@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation'; const Chains = () => {
     return <>
-        <section className="section-chains grid grid-cols-5 relative bg-[url('/images/bg-ar.jpg')] bg-contain h-auto ">
+        <section className="section-chains grid grid-cols-5 relative bg-[url('/images/bg-ar.jpg')] bg-contain h-[600px]">
             <div className="time flex items-center justify-center col-span-2">
                 <div className="text-center">
                     <div className="text">
@@ -23,12 +23,12 @@ import 'swiper/css/navigation'; const Chains = () => {
 
                 </div>
             </div>
-            <div className="swiper relative col-span-3 m-10">
+            <div className="swiper relative col-span-3 m-10 h-full">
                 <Swiper
                     spaceBetween={30}
                     centeredSlides={true}
                     autoplay={{
-                        delay: 9999,
+                        delay: 9999999999,
                         disableOnInteraction: false,
                     }}
                     pagination={{
@@ -40,7 +40,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                 >
                     <SwiperSlide>
                         <div className='relative rounded-xl overflow-hidden'>
-                            <img className=" w-full object-cover" src="/images/IMG-QUAN-BEE-V1.jpg" alt="" />
+                            <img className=" w-full h-[500px] object-cover" src="/images/IMG-QUAN-BEE-V1.jpg" alt="" />
                             <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
 
                                 <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
@@ -55,7 +55,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='relative rounded-xl overflow-hidden'>
-                            <img className=" w-full object-cover" src="/images/IMG-QUAN-BEE-V2.jpg" alt="" />
+                            <img className=" w-full h-[500px] object-cover" src="/images/IMG-QUAN-BEE-V2.jpg" alt="" />
                             <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
 
                                 <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
@@ -70,7 +70,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='relative h-full w-full rounded-xl overflow-hidden'>
-                            <img className=" w-full h-full object-cover" src="/images/IMG-QUAN-BEE-V3.jpg" alt="" />
+                            <img className=" w-full h-[500px] object-cover" src="/images/IMG-QUAN-BEE-V3.jpg" alt="" />
                             <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
                                 <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
                                 <p className='text-xs p-3'>Địa chỉ 3:  32 Cầu Giấy - Hà Nội</p>
