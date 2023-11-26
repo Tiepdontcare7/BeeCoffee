@@ -28,7 +28,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                     spaceBetween={30}
                     centeredSlides={true}
                     autoplay={{
-                        delay: 9999999999,
+                        delay: 2500,
                         disableOnInteraction: false,
                     }}
                     pagination={{
