@@ -41,7 +41,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                     <SwiperSlide>
                         <div className='relative rounded-xl overflow-hidden'>
                             <img className=" w-full h-[500px] object-cover" src="/images/IMG-QUAN-BEE-V1.jpg" alt="" />
-                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
+                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-opacity-70 py-3 px-6">
 
                                 <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
                                 <p className='text-xs p-3'>Địa chỉ 1:  223 Phúc Diễn - Bắc Từ Liêm - Hà Nội</p>
@@ -56,7 +56,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                     <SwiperSlide>
                         <div className='relative rounded-xl overflow-hidden'>
                             <img className=" w-full h-[500px] object-cover" src="/images/IMG-QUAN-BEE-V2.jpg" alt="" />
-                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
+                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-opacity-70 py-3 px-6">
 
                                 <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
                                 <p className='text-xs p-3'>Địa chỉ 2: 125 Chương Mỹ - Hà Đông - Hà Nội</p>
@@ -71,7 +71,7 @@ import 'swiper/css/navigation'; const Chains = () => {
                     <SwiperSlide>
                         <div className='relative h-full w-full rounded-xl overflow-hidden'>
                             <img className=" w-full h-[500px] object-cover" src="/images/IMG-QUAN-BEE-V3.jpg" alt="" />
-                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2  bg-white bg-opacity-70 py-3 px-6">
+                            <div className=" box-address rounded-lg absolute text-white text-center bg-gray-950  top-1/2 left-1/2 transform -translate-x-1/2   bg-opacity-70 py-3 px-6">
                                 <h3 className="text-xl p-3"><strong>HỆ THỐNG BEETEACOFFEE</strong></h3>
                                 <p className='text-xs p-3'>Địa chỉ 3:  32 Cầu Giấy - Hà Nội</p>
                                 <hr />
