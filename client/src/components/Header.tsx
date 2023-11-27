@@ -6,9 +6,7 @@ const Header = () => {
                     <a href="#" className="basis-2/6 text-left">
                         <img className="w-2/3" src="/images/logo.png" alt="" />
                     </a>
-                    <ul
-                        className="basis-3/6  flex items-center justify-end gap-8 uppercase text-sm text-black-600 font-bold -mr-32"
-                    >
+                    <ul className="basis-3/6  flex items-center justify-end gap-8 uppercase text-sm text-black-600 font-bold -mr-32">
                         <li className="py-1 transition delay-75 hover:text-[#f2b10b] relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300">
                             <a href="#" className="">
                                 Trang chủ
@@ -29,77 +27,105 @@ const Header = () => {
                                 Menu Bee
                             </a>
                             {/* Mega Menu */}
-                            <div className="flex absolute bg-slate-50 text-black right-0 border-2 border-[#f2b10b] rounded-2xl opacity-0 group-hover:opacity-100 group-hover:visible group-hover:mt-3 transition-all duration-500">
-                                <ul className="p-2 flex flex-col justify-around gap-3 w-full">
+                            <ul className=" absolute hidden group-hover:block bg-[#ffffffa1] text-black right-0 border-[2px] border-[#f2b10b] rounded-2xl  group-hover:visible group-hover:mt-3 transition-all duration-500">
+                                <div className="grid grid-cols-4 ">
                                     <li>
-                                        <a href="" className="w-32 block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className="block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Best-Seller
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" className="w-32 block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className="  block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Trà sữa
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" className="w-32  block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className="  block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Coffee
                                         </a>
                                     </li>
-                                </ul>
-                                <ul className="p-2 inline-flex flex-col justify-around  gap-5 w-full">
+
                                     <li>
-                                        <a href="" className="w-52  block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className="  block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Trà hoa quả đặc biệt
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" className="w-32 block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className=" block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Olong
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" className="w-32 block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className=" block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Sữa tươi
                                         </a>
                                     </li>
-                                </ul>
-                                <ul className="p-2 inline-flex flex-col justify-around  gap-5 w-full">
+
                                     <li>
-                                        <a href="" className="w-36  block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className="  block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Trà trái cây
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" className="w-32  block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className="  block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Món nóng
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="" className="w-32  block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className="  block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Đá xay
                                         </a>
                                     </li>
-                                </ul>
-                                <ul className="p-2 flex flex-col gap-5 w-full">
+
                                     <li>
-                                        <a href="" className="w-30 block p-2 hover:text-[#f2b10b] transition-all duration-150">
+                                        <a
+                                            href=""
+                                            className=" block p-2 hover:text-[#f2b10b] transition-all duration-150"
+                                        >
                                             <i className="fa-solid fa-caret-right m-2"></i>
                                             Món khác
                                         </a>
                                     </li>
-                                </ul>
-                            </div>
+                                </div>
+                            </ul>
                         </li>
+
                         <li className="py-1 transition delay-75 hover:text-[#f2b10b] relative after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300">
                             <a href="#" className="">
                                 Tin tức
