@@ -8,7 +8,7 @@ const Gallery = () => {
                 </div>
             </div>
             <div className="row  ">
-                <div className="col grid grid-cols-4 place-items-center">
+                <div className="col grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 place-items-center">
                     <div className="col-item w-64 h-64 flex items-center justify-center rounded-2xl my-4 overflow-hidden">
                         <img className="object-cover w-full h-full  hover:scale-[1.1] transition-transform ease-in-out duration-500"
                             src="/images/img-bee-v1.1.jpg" alt="" />

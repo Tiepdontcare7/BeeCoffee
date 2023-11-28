@@ -10,7 +10,7 @@ const News = () => {
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 gap-5 mt-[15px] ">
                     <div className="text-center mt-[35px]">
                         <div className="overflow-hidden">
-                            <img src="/images/new-001.png" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px]  md:w-full  md:h-[490px] w-full h-[260px] transform transition-transform duration-300 hover:scale-110 mx-auto object-cover cursor-pointer" />
+                            <img src="/images/new-001.png" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px]  md:w-full  md:h-[490px] w-full h-[260px] transform transition-transform duration-300 hover:scale-110 mx-auto object-contain cursor-pointer" />
                         </div>
                         <div className="px-[10px]">
                             <h3 className=" font-bold  xl:text-[18px] text-[17px] mt-5">  BEE RA MẮT “TOPPING MỚI” SIÊU HOT - ... </h3>
@@ -20,14 +20,14 @@ const News = () => {
                     {/* name1 */}
                     <div className="text-center mt-[35px]">
                         <div className="overflow-hidden">
-                            <img src="/images/new-002.jpg" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px] md:w-full  md:h-[490px] w-full h-[260px] transform transition-transform hover:scale-110 duration-300 mx-auto object-cover cursor-pointer" />
+                            <img src="/images/new-002.jpg" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px] md:w-full  md:h-[490px] w-full h-[260px] transform transition-transform hover:scale-110 duration-300 mx-auto object-contain cursor-pointer" />
                         </div>
                         <h3 className=" font-bold  xl:text-[18px] text-[17px] mt-5">VÌ SAO NÊN ĐẦU TƯ THIẾT KẾ QUÁN CÀ PHÊ?</h3>
                         <p className="mt-[10px] leading-5    text-[15px] font-normal">Một bài viết tìm hiểu vì sao đầu tư thiết kế quán cà phê là một quyết định quan trọng [...]</p>
                     </div>
                     {/* name2 */}
                     <div className="text-center mt-[35px] ">
-                        <div className="overflow-hidden ">
+                        <div className="overflow-hidden  ">
                             <img src="/images/new-003.jpg" alt="" className=" xl:w-full xl:h-[230px] lg:w-[280px] lg:h-[280px] md:w-full  md:h-[490px] w-full h-[260px] hover:scale-110 transform transition-transform duration-300 mx-auto object-cover cursor-pointer" />
                         </div>
                         <h3 className=" font-bold  xl:text-[18px] text-[17px] mt-5">Bee Coffee & Tea – Không chỉ đơn thuần làm ...</h3>
@@ -35,7 +35,7 @@ const News = () => {
                     </div>
                     {/* name 3 */}
                 </div>
-{/* ione */}
+                {/* ione */}
                 <div className="grid xl:grid-cols-4 lg:grid-cols-4 grid-cols-1 md:grid-cols-4  mt-12 pb-[20px] gap-5">
                     <div className="xl:flex lg:flex gap-3 flex px-[10px]  bg-white md:flex rounded-[5px] overflow-hidden border-dashed border-2 border-yellow-500 hover:border-solid ">
                         <div className=" ">
