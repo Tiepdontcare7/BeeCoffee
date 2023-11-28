@@ -155,7 +155,7 @@ const Footer = () => {
         </div>
         {/*  */}
 
-        <div className='pt-[25px] border'>
+        <div className='pt-[25px]'>
           <div>
             <h3 className='xl:text-[26px] xl:mt-[12px] md:text-[19px] text-[25px] font-bold text-yellow-600 ' >Phương Thức Thanh Toán</h3>
           </div>
