@@ -18,7 +18,7 @@ const MenuToday = () => {
             <div className="xl:mx-[120px] mx-[50px] mt-16">
                 <Swiper
                     slidesPerView={5}
-                    spaceBetween={30}
+                    spaceBetween={20}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
@@ -41,7 +41,7 @@ const MenuToday = () => {
                     }}
                 >
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
@@ -56,7 +56,7 @@ const MenuToday = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
@@ -71,7 +71,7 @@ const MenuToday = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
@@ -86,7 +86,7 @@ const MenuToday = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
@@ -101,7 +101,7 @@ const MenuToday = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
@@ -116,7 +116,7 @@ const MenuToday = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
@@ -131,7 +131,7 @@ const MenuToday = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"
@@ -146,7 +146,7 @@ const MenuToday = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="bg-[#f4f2e9] border shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
+                        <div className="bg-[#f4f2e9] border shadow-md hover:shadow-2xl border-[#ccc] p-3 rounded-md text-center hover:scale-[1.025] transition-transform ease-linear">
                             <img
                                 title="CÀ PHÊ HẠT RANG BEE"
                                 className="cursor-pointer hover:scale-[1.02] transition-transform ease-linear mb-5"

@@ -98,7 +98,7 @@ const Footer = () => {
                   <a href="" className=''>   {/* link den san pham  */}
                     <i className="fa-solid fa-angle-right"></i>
                     <span className='text-[16px] ml-[10px]'>Trà sữa siêu ngon</span>
-                    
+
                   </a>
                 </div>
                 <div className='pt-[15px] hover:text-yellow-600'>
@@ -182,7 +182,7 @@ const Footer = () => {
             </div>
             {/* mb bank */}
             <div className='mt-[30px]'>
-              <img src="../../public/images/bank.png" alt="" className='xl:w-full xl:h-full md:w-full md:h-[150px]'/>
+              <img src="../../public/images/bank.png" alt="" className='xl:w-full xl:h-full md:w-full md:h-[150px]' />
             </div>
           </div>
           {/* 3 */}
