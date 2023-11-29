@@ -8,6 +8,14 @@ div {
     cursor: url('https://cdn.custom-cursor.com/db/18434/32/detailed-color-bee-cursor.png'), auto !important;
     font-family: 'Roboto', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img:hover,
 a:hover,
 button:hover,
 input:hover {
