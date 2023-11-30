@@ -36,7 +36,7 @@ const Header = () => {
                 ref={megaE}
                 className="mx-auto w-full max-w-screen-2xl fixed top-0 z-50 transition-all duration-700  ease-in-out bg-white"
             >
-                <div ref={megaE} className={'flex justify-between p-2 w-full bg-[#2e2f31]'}>
+                <div ref={megaE} className={' flex justify-between p-2 w-full bg-[#2e2f31]'}>
                     <ul className="flex">
                         <div className="flex justify-center gap-3 text-white ml-3">
                             <li className="group flex">
